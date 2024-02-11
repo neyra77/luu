@@ -69,6 +69,7 @@ body{
 	box-shadow: 1px 1px 5px black;
 	background-color: white;	
 	cursor: pointer;
+	user-select: none;
 }
 
 .btn:hover {
@@ -87,3 +88,22 @@ body{
 	left: calc(50% + 1rem);	
 	z-index: 2;
 }
+
+.btn-no:hover span{
+	display: none;
+}
+
+.btn-no:hover:before {
+	content: "😤";
+}
+
+.btn-no:active:after {
+	content: "😤";
+}
+
+
+
+
+
+
+
