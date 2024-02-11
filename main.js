@@ -32,6 +32,7 @@ acceptButton.addEventListener("click", (e) => {
 	runawayButton.classList.add("hide");
 	imageOne.classList.add("hide");
 	imageTwo.classList.remove("hide");	
+	acceptButton.innerHTML="aww 🐨";	
 });
 
 
